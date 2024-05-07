@@ -1,0 +1,7 @@
+client
+-react
+-npx create-react-app .
+
+server
+-express
+-npm init -y
