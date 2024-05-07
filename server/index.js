@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/api", (req, res) => {
-   res.json({"users":["guest","user","admin","sysAdmin"]})
+   res.send({"users":["guest","user","admin","sysAdmin"]})
 })
 
 

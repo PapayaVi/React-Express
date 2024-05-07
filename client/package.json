@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "homepage": ".",
   "proxy": "https://react-express-amber.vercel.app",
   "private": true,
   "dependencies": {

@@ -10,7 +10,7 @@ function App() {
     })
   }, [])
   return (
-    <div>
+    <div> 
       {
         (typeof serverData.users === 'undefined') ? ( <p>Fetching data...</p>) : 
         ( serverData.users.map((user, idx) => (
