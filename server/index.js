@@ -5,7 +5,7 @@ require('dotenv').config()
 
 const app = express();
 
-app.use("/", (req, res) => {
+app.get("/", (req, res) => {
    res.send("Server deployed")
    console.log("Hello")
 })
