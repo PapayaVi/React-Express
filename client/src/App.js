@@ -5,7 +5,7 @@ function App() {
   const [serverData, setServerData] = useState([{}])
 
   useEffect(() => {
-    fetch("/api").then( resp => resp.json() ).then( data => {
+    fetch(process.env.REACT_APP_SERVER_BASE+"/api").then( resp => resp.json() ).then( data => {
       setServerData(data)
     })
   }, [])
