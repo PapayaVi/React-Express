@@ -1,7 +1,6 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": ".",
   "proxy": "https://react-express-server-git-main-papayavis-projects.vercel.app",
   "private": true,
   "dependencies": {
