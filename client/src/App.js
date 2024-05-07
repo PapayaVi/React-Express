@@ -5,7 +5,7 @@ function App() {
   const [serverData, setServerData] = useState([{}])
 
   useEffect(() => {
-    fetch("https://react-express-server-git-main-papayavis-projects.vercel.app/api").then( resp => resp.json() ).then( data => {
+    fetch("/api").then( resp => resp.json() ).then( data => {
       setServerData(data)
     })
   }, [])
