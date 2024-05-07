@@ -1,5 +1,7 @@
-import express from 'express'
-import 'dotenv/config'
+// import express from 'express'
+const express = require('express')
+require('dotenv').config()
+// import 'dotenv/config'
 
 const app = express();
 
@@ -14,6 +16,6 @@ app.get("/api", (req, res) => {
 
 
 const port = process.env.PORT
-app.listen(port, () =>{
+app.listen(8080, () =>{
    console.log("App running on : "+ port)
 })
